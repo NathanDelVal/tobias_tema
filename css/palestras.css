@@ -1,0 +1,121 @@
+.wq-03:after{
+	display: none;
+}
+.wq-03 .wq-conteudo{
+	margin-bottom: 30px;
+}
+.wq-03 .wq-titulo_1 h3{
+	color: #1a1a1a;
+}
+.wq-03 .container > p{
+	color: #687a78;
+}
+.wq-03 .row{
+	margin-top: 100px;
+	justify-content: flex-start;
+}
+
+.wq-03{
+	text-align: center;
+	border-bottom: 1.5px solid #2c304d;
+}
+
+.wq-06{
+	margin-top: 0;
+}
+
+
+
+.wq-01-palestra-interna{
+	position: relative;
+	padding: 50px 0 100px;
+	overflow: hidden;
+	background: #f8f8f8;
+}
+.wq-01-palestra-interna .col-xl-5f:after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+	top: -50px;
+	height: 380px;
+	width: 2000px;
+	background-color: #2c304d;
+}
+.wq-01-palestra-interna .wq-conteudo{
+}
+
+.wq-01-palestra-interna .wq-conteudo .wq-titulo_1 h2,
+.wq-01-palestra-interna .wq-conteudo .wq-titulo_1 h1{
+	color: #1a1a1a;
+}
+.wq-01-palestra-interna .wq-conteudo p,.wq-01-palestra-interna .wq-conteudo li{
+	margin-bottom: 25px;
+	font-size: 16px;
+	color: #687a78;
+}
+.wq-01-palestra-interna .wq-conteudo li{
+	margin-bottom: 5px;
+	padding-left: 20px;
+	position: relative;
+}
+.wq-01-palestra-interna .wq-conteudo li:before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 7px;
+	left: 0px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background-color: #2c304d;
+}
+
+.wq-form_servicos{
+	background-color: #ddd;
+	padding: 40px;
+	border-radius: 4px;
+}
+
+.wq-form_servicos .wq-titulo_1{
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+
+
+.wq-form_servicos input,
+.wq-form_servicos textarea{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 13px;
+	color: #484848;
+	padding: 15px 20px;
+	border-radius: 40px;
+	border:none;
+	margin-bottom: 15px;
+	width: 100%;
+}
+.wq-form_servicos textarea{
+	height: 90px;
+	border-radius: 20px;
+}
+.wq-form_servicos button{
+	margin: 20px 0 0;
+	border: none;
+	color: #e9c67f;
+	background-color: #2c304d;
+}
+
+.wq-form_servicos.wq-conteudo .wq-wrapper{
+	margin: 0 auto;
+	max-width: 850px;
+}
+.wq-01-palestra-interna figure img{
+	width: 100%;
+	box-shadow: 0px 35px 80px -45px rgba(0,0,0,.75);
+}
+
+.wq-01-palestra-interna .wq-conteudo p{
+	text-align: justify;
+}

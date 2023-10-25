@@ -1,0 +1,59 @@
+.wq-01-contato{
+	padding: 70px 0;
+	background: #f8f8f8;
+}
+.wq-01-contato .wq-titulo_1 h3{
+	color: #1a1a1a;
+}
+
+.wq-01-contato form{
+	background-color: #ddd;
+	text-align: right;
+	padding: 30px 35px;
+	box-shadow: 0 0 10px 0 rgba(43,52,59,.1);
+	border-radius: 4px;
+}
+.wq-01-contato input,
+.wq-01-contato textarea{
+	font-size: 12px;
+	color: #1a1a1a;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 20px;
+	width: 100%;
+	border-radius: 3px;
+	border: none;
+	margin-bottom: 30px;
+}
+.wq-01-contato textarea{
+	height: 100px;
+}
+.wq-01-contato button{
+	background-color: #2c304d;
+	border: 2px solid #ddd;
+	margin: 0 auto;
+	color: #fff;
+}
+.wq-01-contato button:hover{
+	background-color: #fff;
+	border-color: #2c304d;
+	color: #2c304d;
+}
+
+
+.wq-contatos_itens a{
+	display: flex;
+	margin-bottom: 20px;
+}
+.wq-contatos_itens span{
+	color: #2c304d;
+	font-size: 22px;
+	margin-right: 8px;
+}
+.wq-contatos_itens p{
+    margin-top: 3px;
+}
+
+.wq-06{
+	display: none;
+}

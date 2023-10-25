@@ -1,0 +1,61 @@
+.wq-01-contato form{
+	background-color: #043e5c;
+	text-align: right;
+	padding: 43px 57px;
+}
+.wq-01-contato .wq-titulo_1 h3{
+	color: #043e5c;
+}
+.wq-01-contato{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.wq-01-contato input,
+.wq-01-contato textarea{
+	font-size: 12px;
+	color: #043e5c;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 20px;
+	width: calc(100% - 40px);
+	border-radius: 40px;
+	border: none;
+	margin-bottom:20px;
+}
+.wq-01-contato textarea{
+	height: 100px;
+}
+.wq-01-contato button{
+	background-color: #83c31a;
+	border: 2px solid #fff;
+	margin: 0 auto;
+	color: #043e5c;
+}
+.wq-01-contato button:hover{
+	background-color: #043e5c;
+	border-color: #83c31a;
+	color:#83c31a;
+}
+
+
+.wq-01-contato .wq-conteudo{
+	margin-left: 0;
+	width: calc(100% - 110px);
+	background-color: #83c31a;
+	height: 100px;
+	padding: 0 55px;
+	display: flex;
+}
+
+.wq-01-contato .wq-conteudo p.wq-contato{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+	align-items: center;
+}
+
+.wq-new-contato{
+	padding-left: 60px;
+}

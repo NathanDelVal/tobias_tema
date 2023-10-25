@@ -1,0 +1,134 @@
+.wq-01-blog .wq-box_9 .wq-conteudo{
+	max-width: 750px;
+}
+.wq-filtro{
+	margin-right: 0;
+	margin-left: 0
+	;margin: 20px 0;
+}
+.wq-filtro ul{
+	color: #83c31a;
+	font-size: 14px;
+}
+.wq-filtro ul li{
+	margin-right: 20px;
+}
+.wq-filtro ul li:last-child{
+	margin-right: 0px;
+}
+.wq-filtro ul:first-child li:first-child{
+	margin-right: 10px;
+}
+.wq-filtro ul:first-child li:last-child{
+	margin-left: 10px;
+}
+.wq-filtro ul li span{
+	color: #043e5c;
+	margin-right: 10px;
+	font-size: 16px;
+}
+.wq-01-blog .wq-box_9 .wq-conteudo_texto h3,
+.wq-01-blog .wq-box_9 .wq-conteudo_texto h1{
+	color: #043e5c;
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.wq-01-blog .wq-box_9 .wq-conteudo_texto p{
+	color: #687a78;
+	font-size: 15px;
+	margin-bottom: 25px;
+}
+.wq-01-blog .wq-box_9 .wq-conteudo{
+	padding-bottom: 55px;
+	margin-bottom: 55px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+
+
+.wq-01-blog .wq-paginas ul li a{
+	width: 53px;height: 53px; 
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%; 
+	display: flex;
+	margin-bottom: 5px;
+	color: #043e5c;
+	border: 2px solid #043e5c;
+	font-weight: 600;
+}
+.wq-01-blog .wq-paginas ul li.active a,
+.wq-01-blog .wq-paginas ul li:hover a{
+	background-color:#83c31a;
+	border-color: transparent;
+}
+
+
+
+.wq-01-blog{
+	padding: 70px 0;
+}
+
+.wq-01-blog aside{
+	max-width: 330px;
+	margin-left: auto;
+}
+.wq-01-blog aside form{
+	position: relative;
+}
+.wq-01-blog aside input{
+	padding: 20px;
+	width: calc(100% - 40px);
+	font-size: 14px;
+}
+.wq-01-blog aside button{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	bottom: 0;
+	background-color: transparent;
+	border: none;
+}
+.wq-01-blog aside h4{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #043e5c;
+}
+
+.wq-01-blog aside .wq-categorias ul li{
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #f0f0f0;
+	font-size: 15px;
+	color: #043e5c;
+}
+.wq-01-blog aside .wq-categorias ul li:hover{
+	color: #83c31a;
+}
+.wq-01-blog aside .wq-leia h3{
+	color: #043e5c;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.wq-01-blog aside .wq-leia h3:hover{
+	color: #83c31a;
+}
+
+.wq-01-blog aside .wq-leia .wq-conteudo{
+	margin-bottom: 40px;
+}
+
+.wq-01-blog .wq-comentario .wq-titulo_1 h3{	
+	font-size: 24px;
+	color: #043e5c;
+}
+
+
+.wq-01-blog img{
+	display: block;
+	width: 100%;
+	height: auto;
+}

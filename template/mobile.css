@@ -1,0 +1,186 @@
+
+@media screen and (max-width: 999px){
+	.wq-header_top .wq-container {
+	    justify-content: center;
+	    flex-wrap: wrap;
+	}
+	.wq-header_top p.wq-contato {
+	    justify-content: center;
+	    flex-wrap: wrap;
+	}
+	p.wq-contato a{
+		margin: 5px;
+	}
+	.wq-navegacao{
+		width: 100%;
+	}
+	.wq-header_top .wq-midias-sociais{
+		display: flex;
+	}
+	.wq-header .wq-menu_principal.aberto > ul{
+		background-color: transparent;
+	}
+	.wq-menu_principal ul li a{
+		margin-left: 0;
+		margin-bottom: 10px;
+		margin-top: 5px;
+		font-style: 20px;
+		display: inline-block;
+	}
+	.wq-06 .wq-flex{
+		margin: 0;
+	}
+
+	.wq-carousel_youtube {
+	    overflow: hidden;
+	    width: 100%;
+	}
+	.wq-carousel_youtube .owl-stage-outer {
+	    overflow: hidden;
+	}
+	.wq-carousel_youtube iframe {
+	    width: 100%;
+	    height: 300px;
+	}
+
+	.wq-carousel_youtube .owl-nav button.owl-prev {
+	    margin-left: 0px;
+	    margin-right: 10px;
+	}
+	.wq-carousel_youtube .owl-nav button.owl-next {
+	    margin-right: 0px;
+	    margin-left: 10px;
+	}
+	.wq-carousel_youtube .owl-nav {
+	    position: relative;
+	    justify-content: center;
+	    top: auto;
+	    left: auto;
+	}
+	.wq-footer .wq-header_bottom .wq-navegacao{
+		display: none;
+	}
+	.wq-footer .wq-header_bottom .wq-flex{
+		justify-content: center;
+	}
+	.wq-05 .wq-flex .wq-box_4{
+		margin-bottom: 25px;
+	}
+	.wq-01 .wq-conteudo {
+	    padding: 20px 30px;
+	}
+	.wq-btn_1{
+		padding: 10px 25px;
+	}
+	.wq-01-sobre .wq-box_5f:after,
+	.wq-01-palestra-interna .wq-box_5f:after,
+	.wq-01-palestra-interna .wq-box_5f:after{
+		display: none!important;
+	}
+	.wq-01-sobre .wq-box_5f figure{
+		margin-bottom: 60px;
+	}
+
+	.wq-02-sobre .wq-flex .wq-box_4{
+		margin-bottom: 25px;
+	}
+	.wq-01-palestra-interna .wq-conteudo{
+		padding: 0 20px;
+	}
+	.wq-01-landing-page-relacio .wq-conteudo,
+	.wq-02-landing-page-relacio .wq-conteudo,
+	.wq-03-landing-page-relacio .wq-conteudo,
+	.wq-05-landing-page-relacio .wq-conteudo{
+		padding: 0 30px;
+	}
+	.wq-01-palestra-interna aside .wq-conteudo,
+	.wq-01-palestra-interna aside .wq-conteudo{
+	    padding: 20px!important;
+	}
+	.wq-01-blog aside {
+	    max-width: 100%!important;
+	    margin-left: auto;
+	}
+}
+/***** Tamanho para smartphones na vertical *****/
+
+@media screen and (max-width: 499px){
+	.wq-header_top .wq-midias-sociais {
+	    margin-top: 20px;
+	    margin-left: 0;
+	}
+	.wq-03 .wq-flex {
+    	justify-content: center;
+   	}
+   	.wq-01-contato .wq-conteudo {
+    	width: calc(100% - 20px);
+    	padding: 0 10px;
+    }
+    .wq-01-contato form {
+    	padding: 43px 35px;
+    }
+    .wq-new-contato {
+	    padding-left: 0px;
+	}
+	.wq-new-contato .wq-flex{
+		margin: 0;
+	}
+}
+
+/***** Tamanho para smartphones na horizontal *****/
+
+@media screen and (max-width: 649px) and (min-width: 500px) {
+	.wq-header_top .wq-midias-sociais {
+	    margin-top: 20px;
+	    margin-left: 0;
+	}
+	.wq-03 .wq-flex {
+    	justify-content: center;
+   	}
+   	.wq-01-contato .wq-conteudo {
+    	width: calc(100% - 20px);
+    	padding: 0 10px;
+    }
+    .wq-01-contato form {
+    	padding: 43px 35px;
+    }
+    .wq-new-contato {
+	    padding-left: 0px;
+	}
+	.wq-new-contato .wq-flex{
+		margin: 0;
+	}
+
+}
+
+/***** Tamanho para tablets na vertical *****/
+
+@media screen and (max-width: 749px) and (min-width: 650px) {
+	.wq-header_top .wq-midias-sociais {
+	    margin-top: 20px;
+	    margin-left: 0;
+	}
+}
+
+/***** Tamanho para tablets na horizontal *****/
+
+@media screen and (max-width: 999px) and (min-width: 750px) {
+
+}
+
+
+/***** Monitores pequenos  *****/
+@media screen and (max-width: 1299px) and (min-width: 999px) {
+
+}
+
+/***** Monitores medios  *****/
+@media screen and (max-width: 1499px) and (min-width: 1300px) {
+
+}
+
+/***** Monitores extra grandes  *****/
+
+@media screen and (min-width: 1600px) {
+
+}
