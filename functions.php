@@ -78,7 +78,7 @@
 			array(
 				'labels' 			=> array(
 					'name' 			=> __('Gerais'),
-					'singular_name' => __('geral')
+					'singular_name' => __('tipo')
 				),
 				'public' 			=> true,
 				'has_archive' 		=> true,
@@ -115,9 +115,39 @@
 			)
 		);
 
+
+		register_post_type('pop-up',
+		array(
+			'labels' 			=> array(
+				'name' 			=> __('Pop-ups'),
+				'singular_name' => __('pop-up')
+			),
+			'public' 			=> true,
+			'has_archive' 		=> false,
+			'menu_icon' 		=> 'dashicons-media-default',
+			'supports' 			=> array('title'),
+		)
+	);
 	}
 	add_action('init', 'posts_types_default');
 
+
+	function register_escopo_taxonomy() {
+		$labels = array(
+			'name' => 'Escopo',
+			'singular_name' => 'escopo',
+		);
+	
+		$args = array(
+			'labels' => $labels,
+			'hierarchical' => true, // Set this to true to make it work like categories.
+		);
+	
+		register_taxonomy('escopo', 'pop-up', $args);
+	}
+	
+	add_action('init', 'register_escopo_taxonomy');
+	
 	function meus_menus() {
 		register_nav_menus(
 			array(

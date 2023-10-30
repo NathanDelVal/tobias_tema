@@ -115,16 +115,56 @@ $id_telefones = get_page_by_path('telefones', OBJECT, 'contatos')->ID;
 	echo get_post_meta($id_google, 'code_webmaster_tools', true);
 	?>
 </head>
-
 <body>
-
 
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N646SX2" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
+	<?php 
+$query = array(
+	'post_type'				=> array( 'pop-up' ),
+	'posts_per_page' => 1,
+	'tax_query' => array(
+        array(
+            'taxonomy' => 'escopo', // Replace with the name of your custom taxonomy.
+            'field'    => 'slug', // You can change this to 'id' or 'name' depending on how you want to query the terms.
+            'terms'    => 'geral' // Replace with the slug of the specific term you want to query.
+		)
+	)
+);
 
+$query = new WP_Query($query);
 
+if($query->have_posts()) {
+	while($query->have_posts()) {
+		$query->the_post();
+?>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" style="top:20%">
+    <div class="modal-content" style="background:<?= get_post_meta(get_the_ID(), 'wsg_popup_bg', true)?>;border:7px solid white;border-radius:20px;letter-spacing:-1px">
+      <div class="modal-header border-0 p-0">
+			<img src="<?= get_post_meta(get_the_ID(), 'wsg_popup_img', true) ?>" style="width:25%; aspect-ratio:1/1; border-radius:50%; border:7px solid white; display:block; margin:0 auto; transform:translateY(-50px)" alt="logo do pop-up">
+        <button type="button" class="close m-0 p-0" data-dismiss="modal" aria-label="Close" style="transform:translate(-10px,10px)">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?= '<pre>'.get_post_meta(get_the_ID(),'wsg_popup_txt', true).'<pre>'; ?>
+      </div>
+      <div class="modal-footer justify-content-center border-0">
+        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+        <a href="<?= get_post_meta(get_the_ID(),'wsg_popup_link', true) ?>" target="_blank"><button type="button" class="btn text-uppercase font-weight-bold" style="background:<?= get_post_meta(get_the_ID(), 'wsg_popup_button_bg', true)?>;color:white;font-size:2rem;border-radius:20px;padding: 10px 20px; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)"><?= get_post_meta(get_the_ID(),'wsg_popup_button_txt', true) ?></button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<?php }
+	} 
+	wp_reset_query(); 
+?>
 	<header class="wq-header wq-header_horizontal">
 		<div class="wq-header_top">
 			<div class="container">
