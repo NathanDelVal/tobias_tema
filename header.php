@@ -141,7 +141,7 @@ if($query->have_posts()) {
 		$query->the_post();
 ?>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="popup" tabindex="-1" aria-labelledby="popupLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" style="top:20%">
     <div class="modal-content" style="background:<?= get_post_meta(get_the_ID(), 'wsg_popup_bg', true)?>;border:7px solid white;border-radius:20px;letter-spacing:-1px">
       <div class="modal-header border-0 p-0">

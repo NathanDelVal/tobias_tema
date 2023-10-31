@@ -201,6 +201,13 @@
 			</a>
 		</div>
 	<?php } ?>
-
+<script>
+	$(function() {
+		if(!window.sessionStorage.getItem('visited')) {
+			$('#popup').modal('show');
+			window.sessionStorage.setItem('visited', 'y');
+		}
+	})
+</script>
 </body>
 </html>
