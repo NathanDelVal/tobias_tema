@@ -46,7 +46,7 @@
 						</ul>								
 							<div class="selo__atom">
 								<figure>
-									<img src="<?php bloginfo( 'template_url' ); ?>/img/atom_selo.png" alt="">
+									<img loading="lazy" src="<?php bloginfo( 'template_url' ); ?>/img/atom_selo.png" alt="">
 								</figure>
 							</div>
 					</div>
@@ -173,7 +173,7 @@
 				<div class="row">
 					<?php echo wpautop(get_post_meta( $id_sobre, 'wsg_sobre_footer_copyright', true )); ?>
 					<!-- <a href="https://transparencyreport.google.com/safe-browsing/search?url=https:%2F%2Ftobiasamaral.com.br%2F">
-						<img src="<?php bloginfo('template_url') ?>/google.png" alt="Selo de Qualidade do Google">
+						<img loading="lazy" src="<?php bloginfo('template_url') ?>/google.png" alt="Selo de Qualidade do Google">
 					</a> -->
 					<?php echo wpautop(get_post_meta( $id_admin, 'agency_setting_footer_site_content', true )); ?>
 				</div>

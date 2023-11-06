@@ -207,7 +207,7 @@
 		$imageFull = wp_get_attachment_image_src($attachID, $size);
 		if ($imageFull !== NULL && $imageFull !== FALSE) {
 			$postItem = get_post($attachID);
-			$imageFull = '<img src="'.$imageFull[0].'" class="attachment-full size-full" alt="'.$postItem->post_title.'" title="'.$postItem->post_title.'" />';
+			$imageFull = '<img loading="lazy" src="'.$imageFull[0].'" class="attachment-full size-full" alt="'.$postItem->post_title.'" title="'.$postItem->post_title.'" />';
 		}else{
 			$imageFull = "";
 		}
