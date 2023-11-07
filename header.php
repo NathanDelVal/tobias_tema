@@ -84,24 +84,24 @@ $id_telefones = get_page_by_path('telefones', OBJECT, 'contatos')->ID;
 
 
 	<script src="<?php bloginfo('template_url'); ?>/js/jquery.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/bootstrap/dist/js/bootstrap.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/bootstrap/dist/js/bootstrap.bundle.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/slick.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/owl.carousel.min.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/carousel.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/lity.min.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/efeitos.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/rellax.min.js"></script>
-	<script src="<?php bloginfo('template_url'); ?>/js/jquery.magnific-popup.min.js"></script>
+	<script defer src="<?php bloginfo('template_url'); ?>/bootstrap/dist/js/bootstrap.js"></script>
+	<script defer src="<?php bloginfo('template_url'); ?>/bootstrap/dist/js/bootstrap.bundle.js"></script>
+	<script defer src="<?php bloginfo('template_url'); ?>/js/slick.js"></script>
+	<script defer src="<?php bloginfo('template_url'); ?>/js/owl.carousel.min.js"></script>
+	<script defer src="<?php bloginfo('template_url'); ?>/js/carousel.js"></script>
+	<script defer src="<?php bloginfo('template_url'); ?>/js/lity.min.js"></script>
+	<script defer src="<?php bloginfo('template_url'); ?>/js/efeitos.js"></script>
+	<script defer src="<?php bloginfo('template_url'); ?>/js/rellax.min.js"></script>
+	<script defer src="<?php bloginfo('template_url'); ?>/js/jquery.magnific-popup.min.js"></script>
 
 	<meta name="wq_url_theme" content="<?php bloginfo('template_url'); ?>/">
 	<!-- -->
 	<link rel="stylesheet" href="<?php bloginfo('template_url') ?>/js-template/sweetalert2/sweetalert2.min.css">
-	<script src="<?php bloginfo('template_url') ?>/js-template/sweetalert2/sweetalert2.min.js"></script>
-	<script src="<?php bloginfo('template_url') ?>/js-template/jquery.blockUI.js"></script>
+	<script defer src="<?php bloginfo('template_url') ?>/js-template/sweetalert2/sweetalert2.min.js"></script>
+	<script defer src="<?php bloginfo('template_url') ?>/js-template/jquery.blockUI.js"></script>
 
-	<script src="<?php bloginfo('template_url') ?>/js-template/jquery.maskedinput.min.js"></script>
-	<script src="<?php bloginfo('template_url') ?>/js-template/script-template.js"></script>
+	<script defer src="<?php bloginfo('template_url') ?>/js-template/jquery.maskedinput.min.js"></script>
+	<script defer src="<?php bloginfo('template_url') ?>/js-template/script-template.js"></script>
 
 	<!-- -->
 	<script src='https://www.google.com/recaptcha/api.js?onload=onloadCallbackFormsRecaptcha&render=explicit' async defer></script>
